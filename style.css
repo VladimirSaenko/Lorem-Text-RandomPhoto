@@ -72,21 +72,24 @@ section div:nth-child(2) h2 {
     left: 50%;
     top: 90%;
     transform: translate(-50%, -50%);
-    width: 250px;
-    height: 75px;
+    width: 280px;
+    height: 85px;
     border-radius: 45px;
     background: transparent;
     border: 5px solid white;
-    color: white;
-    text-shadow: black 2px 1px 1px;
     text-align: center;
-    font-size: 45px;
+    font-size: 55px !important;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-fill-color: transparent;
 }
 
 .btn-randomPhoto:hover {
-    color: black;
-    text-shadow: white 2px 1px 1px;
-    border-color: black;
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    -webkit-text-stroke: 4px;
+    letter-spacing: 3.5px;
 }
 
 @keyframes animat
